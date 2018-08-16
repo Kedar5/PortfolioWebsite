@@ -1,0 +1,489 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+  float: left;
+  padding-left: 0px;
+  padding-top: 1px;
+  height: 50px;
+}
+.center{
+  text-align: center;
+}
+.wrapper{
+  min-height: 100%;
+  position: relative;
+}
+.language{
+  border: 2px solid #808080;
+  width: 80%;
+  background-color: grey;
+}
+.skills{
+  text-align: right;
+  padding: 2%;
+  color: white;
+}
+.html{
+  width: 90%;
+  background-color: black;
+}
+.css{
+  width: 90%;
+  background-color: black;
+}
+.bs{
+  width: 70%;
+  background-color: black;
+}
+.sql{
+  width: 70%;
+  background-color: black;
+}
+.php{
+  width: 40%;
+  background-color: black;
+}
+.js{
+  width: 60%;
+  background-color: black;
+}
+.ajs{
+  width: 50%;
+  background-color: black;
+}
+.cp{
+  width: 80%;
+  background-color: black;
+  }
+.cpp{
+  width: 90%;
+  background-color: black;
+}
+.py{
+  width: 60%;
+  background-color: black;
+}
+.robo{
+  width: 70%;
+  background-color: black;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 100%;
+}
+.background1{
+  /* The image used */
+  background-image: url("tree.jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background2{
+  background-image: url("laptop.jpeg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background{
+  background-color: #1e1e15;
+}
+.background3{
+  background-image: url("suitepic.jpeg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  list-style-type: none;   /*Used for removing the bullets or changing them*/
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+  float: left;
+  padding-left: 10px;
+  padding-top: 1px;
+  height: 50px;
+}
+.list{
+  font-family: Reem Kufi;
+}
+main{
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  width: 100%;
+}
+header{
+  border-bottom: 3px solid grey;
+}
+.section1{
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+}
+.section2{
+  margin: 0px;
+  padding: 40px 25px 25px 25px;
+  height: 100vh;
+  width: 100%;
+  font-family: "Reem Kufi";
+  color: #4da6ff;
+}
+.section3{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+.section4{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+}
+.section5{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+}
+.section6{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+}
+.para11{
+  font-family: Reem Kufi;
+  font-size: 35px;
+  color: white;
+  position: relative;
+  top: 8%;
+  left: 0%;
+}
+.para12{
+  position: relative;
+  color: white;
+  font-family: Reem Kufi;
+  font-size: 20px;
+}
+.para31{
+  font-family: Reem Kufi;
+  font-size: 35px;
+  color: white;
+  position: relative;
+  top: 8%;
+  left: 25%;
+  margin-top: -3%;
+}
+.headercolor{
+  background-color: black;
+}
+.profileimg{
+  position: relative;
+  border-radius: 50%;
+}
+.para13{
+  font-size: 30px;
+  color:white;
+}
+.para14{
+  font-size: 25px;
+  font-family: Reem Kufi;
+  color:white;
+}
+.para21{
+  font-size: 30px;
+  font-family: Reem Kufi;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.para22{
+  font-size: 25px;
+  font-family: Reem Kufi;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.para23{
+  margin-top: 25%;
+  font-size: 30px;
+  font-family: Reem Kufi;
+  margin-left: 5%;
+  color: white;
+}
+.style{
+  color: white; 
+  font-size: 15px;
+  font-family: Reem Kufi;
+}
+.position1{
+  margin-top: 10%;
+  padding-left: 15%;
+}
+.position2{
+  margin-top: 0%;
+  padding-left: 15%;
+}
+.footer{
+  width: 100%;
+  background-color: black;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+.footertext{
+  font-family: Reem Kufi;
+  width: 50%;
+  color: purple;
+  position: relative;
+  margin: 0%;
+  padding-top: 1%;
+  padding-left: 15%;
+}
+.footertext2{
+  margin-bottom: 1%;
+  padding-left: 15%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.social{
+  padding-top: 0.5%;
+  padding-left: 10%;
+  width: 50%;
+}
+.topnav{
+  overflow: hidden;
+  background-color: black;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color: #4da6ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+.active{
+  background-color: #4Caf50;
+  color: white;
+}
+.topnav .icon{
+  display: none;
+}
+/*Media queries*/
+@media screen and (max-width: 600px){
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px){
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width:870px){
+  .section1{
+    width: 50%;
+    order: -1;
+  }
+  .section2{
+    width: 50%;
+    order: 0;
+  }
+  .section3{
+    width: 50%;
+    order: 1;
+  }
+  .section4{
+    width: 50%;
+    order: 2;
+  }
+  .section5{
+    width: 50%;
+    order: 3;
+  }
+  .section6{
+    width: 50%;
+    order: 4;
+  }
+}
+@media screen and (max-width: 360px){
+  .social{
+    padding-top: 2%;
+  }
+  .section1,
+  .section2,
+  .section3,
+  .section4,
+  .section5{
+    padding-top: 40px;
+  }
+  .section6{
+    padding-top: 20px;
+  }
+  .style1{
+    padding-top: 15px;
+  }
+  .para31{
+    top:1%;
+    left:10%;
+  }
+  .section5{
+    margin-top: 0%;
+  }
+}
+@media  screen and (min-height:800px){
+  .section1{
+    padding-top: 100px;
+  }
+  .para11{
+    font-size: 45px;
+  }
+  .para12{
+    font-size: 30px;
+  }
+  .para22{
+    font-size: 30px;
+  }
+  .para13,
+  .para21,
+  .para23{
+    font-size: 40px;
+  }
+  .para14{
+    font-size: 30px;
+  }
+  .para31{
+    font-size: 40px;
+  }
+  .language{
+      border: 2px solid #808080;
+      width: 80%;
+      background-color: grey;
+  }
+  .skills{
+    text-align: right;
+    padding: 2%;   
+  }
+  .style{ 
+    font-size: 25px;
+  }
+}
+@media screen and (min-height:1000px){
+  .section2,
+  .section3{
+    padding-top: 150px;
+  }
+  .section6{
+    padding-top:120px;
+  }
+}
+@media screen and (min-height: 1300px){
+.section1{
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding-top: 30%;
+}
+.section2{
+  margin: 0px;
+  padding-top: 30%;
+  height: 100vh;
+  width: 100%;
+  font-family: Reem Kufi;
+  color: #4da6ff;
+}
+.section3{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+.section4{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+}
+.section5{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+}
+.section6{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+}
+ .para11{
+    font-size: 55px;
+  }
+  .para12{
+    font-size: 40px;
+  }
+  .para22{
+    font-size: 40px;
+  }
+  .para13,
+  .para21,
+  .para23{
+    font-size: 45px;
+  }
+  .para14{
+    font-size: 40px;
+  }
+  .para31{
+    font-size: 50px;
+  }
+  .skill{
+    border: 2px solid #808080;
+    width: 80%;
+    background-color: grey;
+  }
+  .skills{
+    text-align: right;
+    padding: 2%;
+  }
+  .style{ 
+    font-size: 30px;
+  }
+}
