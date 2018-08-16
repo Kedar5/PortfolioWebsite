@@ -353,13 +353,9 @@ header{
   }
   .section1,
   .section2,
-  .section3,
   .section4,
   .section5{
-    padding-top: 40px;
-  }
-  .section6{
-    padding-top: 20px;
+    padding-top: 0px;
   }
   .style1{
     padding-top: 15px;
@@ -370,6 +366,12 @@ header{
   }
   .section5{
     margin-top: 0%;
+  }
+  .para14{
+    font-size:20px;
+  }
+  .para23{
+    font-size: 25px;
   }
 }
 @media  screen and (min-height:800px){
@@ -388,7 +390,7 @@ header{
   .para13,
   .para21,
   .para23{
-    font-size: 40px;
+    font-size: 35px;
   }
   .para14{
     font-size: 30px;
